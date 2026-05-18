@@ -16,7 +16,7 @@ const teachers = [
   //console.log(fourthTeacher)
 // }
 
-// 2. Sostituisci il quinto insegnante nell'array teachers con 'Patrick'
+
   //let Patrick = 0;
   //for (let i = 0; i < teachers.length; i++) {
     //if( i === 0 ){
@@ -27,7 +27,7 @@ const teachers = [
   //}
 
 
-// 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
+
 //let lastTeacher = [];
 //for (let i = 0; i < teachers.length; i++) {
   //if ( i === 0 ) {
@@ -40,24 +40,60 @@ const teachers = [
   //}
 //}
 
-// 4. Rimuovi il primo insegnante dall'array e salvalo nella variabile firstTeacher qui sotto
-let firstTeacher = [];
-for (let i = 0; i < teachers.length; i++) {
-  if ( i === 0 ) {
-    let Nathan = teachers.splice (0, 1,);
-    firstTeacher.push(Nathan[0]);
 
-    console.log(firstTeacher);
-  }
-}
-// 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
+//let firstTeacher = [];
+//for (let i = 0; i < teachers.length; i++) {
+  //if ( i === 0 ) {
+    //let Nathan = teachers.splice (0, 1,);
+    //firstTeacher.push(Nathan[0]);
 
-// 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
+    //console.log(firstTeacher);
+  //}
+//}
 
-// 7. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
-// e salvalo nella variabile lewisIndex
-const lewisIndex = null;
 
-// 8. Verifica se l'array teachers è vuoto
-// e salva il risultato nella variabile isTeachersEmpty
-const isTeachersEmpty = null;
+//let lastTeacher = 'Vanessa';
+//for (let i = 0; i < teachers.length; i++) {
+  //if( i === 0 ) {
+    //teachers.splice(7, 1, 'Vanessa');
+    //console.log(teachers);
+  //}
+//}
+
+
+
+//let firstTeacher = 'Sarah';
+//for (let i = 0; i < teachers.length; i++) {
+  //if( i === 0 ) {
+    //teachers.splice(0, 0, 'Sarah');
+    //console.log(teachers);
+  //}
+//}
+
+
+
+//let LewisIndex = null;
+
+//for (let i = 0; i < teachers.length; i++) {
+  //if( i === 0 ) {
+    //LewisIndex = teachers.indexOf('Lewis'); 
+    //console.log(LewisIndex);
+    
+  //}
+//}
+
+
+
+
+
+//let isTeachersEmpty = null;
+
+//for (let i = 0; i < teachers.length; i++) {
+  //if( i === 0 ) {
+    //teachers.indexOf('Nathan','Ed','Fabio','Phil','Carlo','Lewis','Luca'); 
+    //console.log('i prof sono presenti')
+  //} else {
+    //isTeachersEmpty = teachers.indexOf('Nathan','Ed','Fabio','Phil','Carlo','Lewis','Luca');
+    //console.log('i prof non sono presenti');
+  //}
+//}
